@@ -15,7 +15,7 @@ public class ClassOne {
 		driver.manage().window().maximize();
 		driver.get("https://www.walmart.com/");
 		
-		driver.close();
+		
 		
 		
 		
