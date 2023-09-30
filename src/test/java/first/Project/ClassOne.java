@@ -2,11 +2,13 @@ package first.Project;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
 
 
 public class ClassOne {
 	
-	public static void main(String[] args){
+	@Test
+	public void testNGdemo() {
 		
 		System.setProperty("webdriver.chrome.driver", "C:\\chromedriver-win64\\chromedriver.exe");
 
@@ -16,9 +18,9 @@ public class ClassOne {
 		driver.get("https://www.walmart.com/");
 		
 		
+		driver.close();
 		
 		
-		
-		
-	}
+	}	
+	
 }
