@@ -23,4 +23,10 @@ public class ClassOne {
 		
 	}	
 	
+	@Test
+	public void secondTEst() {
+		
+		System.out.println("this is just a dummy ");
+	}
+	
 }
