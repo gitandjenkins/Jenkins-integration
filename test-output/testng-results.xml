@@ -1,20 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-10-05T02:37:12Z" name="Default suite" finished-at="2023-10-05T02:37:48Z" duration-ms="35944">
+  <suite started-at="2023-10-05T16:28:18Z" name="Default suite" finished-at="2023-10-05T16:28:18Z" duration-ms="81">
     <groups>
     </groups>
-    <test started-at="2023-10-05T02:37:12Z" name="Default test" finished-at="2023-10-05T02:37:48Z" duration-ms="35944">
+    <test started-at="2023-10-05T16:28:18Z" name="Default test" finished-at="2023-10-05T16:28:18Z" duration-ms="81">
       <class name="first.Project.ClassOne">
-        <test-method signature="secondTEst()[pri:0, instance:first.Project.ClassOne@338fc1d8]" started-at="2023-10-04T22:37:12Z" name="secondTEst" finished-at="2023-10-04T22:37:12Z" duration-ms="36" status="PASS">
+        <test-method signature="secondTEst()[pri:0, instance:first.Project.ClassOne@f1da57d]" started-at="2023-10-05T12:28:18Z" name="secondTEst" finished-at="2023-10-05T12:28:18Z" duration-ms="22" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- secondTEst -->
-        <test-method signature="testNGdemo()[pri:0, instance:first.Project.ClassOne@338fc1d8]" started-at="2023-10-04T22:37:12Z" name="testNGdemo" finished-at="2023-10-04T22:37:48Z" duration-ms="35850" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testNGdemo -->
       </class> <!-- first.Project.ClassOne -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
